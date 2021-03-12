@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 11
+Title "Singularity OBC - CAN Transceiver"
+Date "2021-03-11"
+Rev "PROTO_A"
+Comp "The Flame Trench"
+Comment1 "Drawn by:  Ben Cartwright"
+Comment2 "Status:  PROTOTYPE"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TFT_interfaces:SN65HVD230M-EP U4
+U 1 1 60882F50
+P 6000 2900
+AR Path="/60882301/60882F50" Ref="U4"  Part="1" 
+AR Path="/608A1F6B/60882F50" Ref="U5"  Part="1" 
+AR Path="/608A2D6B/60882F50" Ref="U6"  Part="1" 
+F 0 "U6" H 6150 3150 50  0000 C CNN
+F 1 "SN65HVD230M-EP" H 6450 3250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6000 2400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn65hvd230m-ep.pdf" H 5900 3300 50  0001 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_power:OBC_3V3 #PWR045
+U 1 1 60884413
+P 6000 2450
+AR Path="/60882301/60884413" Ref="#PWR045"  Part="1" 
+AR Path="/608A1F6B/60884413" Ref="#PWR049"  Part="1" 
+AR Path="/608A2D6B/60884413" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 6000 2300 50  0001 C CNN
+F 1 "OBC_3V3" H 6015 2623 50  0000 C CNN
+F 2 "" H 6000 2450 50  0001 C CNN
+F 3 "" H 6000 2450 50  0001 C CNN
+	1    6000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2600 6000 2450
+$Comp
+L power:GND #PWR046
+U 1 1 60885169
+P 6000 3400
+AR Path="/60882301/60885169" Ref="#PWR046"  Part="1" 
+AR Path="/608A1F6B/60885169" Ref="#PWR050"  Part="1" 
+AR Path="/608A2D6B/60885169" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 6000 3150 50  0001 C CNN
+F 1 "GND" H 6005 3227 50  0000 C CNN
+F 2 "" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3400 6000 3300
+Text HLabel 6800 2750 2    50   BiDi ~ 0
+CAN_H_PL
+Text HLabel 6800 3150 2    50   BiDi ~ 0
+CAN_L_PL
+Wire Wire Line
+	6800 2750 6650 2750
+Wire Wire Line
+	6500 2900 6400 2900
+Wire Wire Line
+	6500 3000 6400 3000
+Wire Wire Line
+	6650 2750 6650 2800
+Wire Wire Line
+	6650 2750 6500 2750
+Wire Wire Line
+	6500 2750 6500 2900
+Connection ~ 6650 2750
+Wire Wire Line
+	6500 3150 6650 3150
+Wire Wire Line
+	6500 3000 6500 3150
+Wire Wire Line
+	6650 3100 6650 3150
+Connection ~ 6650 3150
+Wire Wire Line
+	6650 3150 6800 3150
+Text Notes 7000 3050 0    50   ~ 0
+CAN termination R\nOther end on EPS/PAYLOAD
+Wire Wire Line
+	5600 3100 5500 3100
+Text HLabel 5100 3100 0    50   Input ~ 0
+CAN_PL_Rs
+Wire Wire Line
+	5200 3100 5100 3100
+Text HLabel 5500 2800 0    50   Input ~ 0
+CAN_PL_D
+Text HLabel 5500 2900 0    50   Output ~ 0
+CAN_PL_R
+Wire Wire Line
+	5600 2800 5500 2800
+Wire Wire Line
+	5600 2900 5500 2900
+$Comp
+L TFT_power:OBC_3V3 #PWR043
+U 1 1 60896C74
+P 4300 2650
+AR Path="/60882301/60896C74" Ref="#PWR043"  Part="1" 
+AR Path="/608A1F6B/60896C74" Ref="#PWR047"  Part="1" 
+AR Path="/608A2D6B/60896C74" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 4300 2500 50  0001 C CNN
+F 1 "OBC_3V3" H 4315 2823 50  0000 C CNN
+F 2 "" H 4300 2650 50  0001 C CNN
+F 3 "" H 4300 2650 50  0001 C CNN
+	1    4300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 60897A5E
+P 4300 3150
+AR Path="/60882301/60897A5E" Ref="#PWR044"  Part="1" 
+AR Path="/608A1F6B/60897A5E" Ref="#PWR048"  Part="1" 
+AR Path="/608A2D6B/60897A5E" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 4300 2900 50  0001 C CNN
+F 1 "GND" H 4305 2977 50  0000 C CNN
+F 2 "" H 4300 3150 50  0001 C CNN
+F 3 "" H 4300 3150 50  0001 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2650 4300 2750
+Wire Wire Line
+	4300 3050 4300 3150
+$Comp
+L TFT_capacitors:100n-10V-0402-5%-CER C17
+U 1 1 609A6C94
+P 4300 2900
+AR Path="/60882301/609A6C94" Ref="C17"  Part="1" 
+AR Path="/608A1F6B/609A6C94" Ref="C18"  Part="1" 
+AR Path="/608A2D6B/609A6C94" Ref="C19"  Part="1" 
+F 0 "C19" H 4415 2991 50  0000 L CNN
+F 1 "100n-10V-0402-5%-CER" H 4325 2800 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 2750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0402C104J8RACAUTO.pdf" H 4300 2900 50  0001 C CNN
+F 4 "100n" H 4415 2900 50  0000 L CNN "NumVal"
+F 5 "C0402C104J8RACAUTO" H 4300 2900 50  0001 C CNN "PartNumber"
+F 6 "SMD Multilayer Ceramic Capacitor, 0.1 µF, 10 V, 0402 [1005 Metric], ± 5%, X7R, C Series KEMET" H 4300 2900 50  0001 C CNN "Description"
+F 7 "5%" H 4415 2809 50  0000 L CNN "Tolerance"
+F 8 "10V" H 4300 2900 50  0001 C CNN "Vmax"
+F 9 "Kemet" H 4300 2900 50  0001 C CNN "Manufacturer"
+F 10 "Farnell:      2904530RL " H 4300 2900 50  0001 C CNN "OrderNumber"
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_resistors:10K-50V-0402-1% R7
+U 1 1 609A888C
+P 5350 3100
+AR Path="/60882301/609A888C" Ref="R7"  Part="1" 
+AR Path="/608A1F6B/609A888C" Ref="R9"  Part="1" 
+AR Path="/608A2D6B/609A888C" Ref="R11"  Part="1" 
+F 0 "R11" V 5450 3200 50  0000 C CNN
+F 1 "10K-50V-0402-1%" V 5450 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 3100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2714353.pdf" H 5450 2900 50  0001 C CNN
+F 4 "10K" V 5250 3000 50  0000 C CNN "NumVal"
+F 5 "CRCW040210K0FKED" V 5150 3050 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5350 3100 50  0001 C CNN "Description"
+F 7 "1%" V 5250 3150 50  0000 C CNN "Tolerance"
+F 8 "50V" V 5450 3400 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 5450 2850 50  0001 C CNN "Manufacturer"
+F 10 "Farnell:      1469669 " H 5350 3100 50  0001 C CNN "OrderNumber"
+	1    5350 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TFT_resistors:120R-50V-0402-1% R8
+U 1 1 609AB7CB
+P 6650 2950
+AR Path="/60882301/609AB7CB" Ref="R8"  Part="1" 
+AR Path="/608A1F6B/609AB7CB" Ref="R10"  Part="1" 
+AR Path="/608A2D6B/609AB7CB" Ref="R12"  Part="1" 
+F 0 "R12" H 6720 3041 50  0000 L CNN
+F 1 "120R-50V-0402-1%" V 6750 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6580 2950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2339608.pdf" H 6750 2750 50  0001 C CNN
+F 4 "120R" H 6720 2950 50  0000 L CNN "NumVal"
+F 5 "CRCW0402120RFKED" V 6450 2900 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 120 ohm, ± 1%, 200 mW, 0402 [1005 Metric], Thick Film, Pulse Proof, High Power" H 6650 2950 50  0001 C CNN "Description"
+F 7 "1%" H 6720 2859 50  0000 L CNN "Tolerance"
+F 8 "50V" V 6750 3250 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 6750 2700 50  0001 C CNN "Manufacturer"
+F 10 "Farnell:      1738838 " H 6650 2950 50  0001 C CNN "OrderNumber"
+	1    6650 2950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
