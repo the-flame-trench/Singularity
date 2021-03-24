@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 11
 Title "Singularity OBC - External FRAM"
-Date "2021-03-11"
+Date "2021-03-24"
 Rev "PROTO_A"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
@@ -21,7 +21,7 @@ AR Path="/613715E4/613719B7" Ref="U7"  Part="1"
 AR Path="/615F54C9/613719B7" Ref="U?"  Part="1" 
 F 0 "U7" H 4875 3235 50  0000 C CNN
 F 1 "CY15B108QI" H 4875 3144 50  0000 C CNN
-F 2 "TFT_BGA:ZWT337" H 4900 2900 50  0001 C CNN
+F 2 "" H 4900 2900 50  0001 C CNN
 F 3 "https://www.cypress.com/file/444201/download" H 4900 2900 50  0001 C CNN
 F 4 "CY15B108QI-20LPXI" H 4900 3400 50  0001 C CNN "PartNumber"
 F 5 "F-RAM Excelon LP 20 MHz 8-GQFN" H 4900 3200 50  0001 C CNN "Description"

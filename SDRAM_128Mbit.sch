@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
 Title "Singularity OBC - External SDRAM"
-Date "2021-03-11"
+Date "2021-03-24"
 Rev "PROTO_A"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
