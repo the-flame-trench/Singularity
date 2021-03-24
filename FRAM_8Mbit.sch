@@ -10,8 +10,8 @@ Rev "PROTO_A"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
-Comment3 ""
-Comment4 ""
+Comment3 "(c) The Flame Trench 2021"
+Comment4 "Licenced under CERN OHLv2-Strong"
 $EndDescr
 $Comp
 L TFT_memory:CY15B108QI U7
