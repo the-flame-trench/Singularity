@@ -1238,10 +1238,10 @@ Connection ~ 9750 3700
 Wire Wire Line
 	9750 3700 9750 3600
 $Comp
-L TFT_semiconductors:MGSF1N02L Q?
+L TFT_semiconductors:MGSF1N02L Q1
 U 1 1 6089E609
 P 7450 3850
-F 0 "Q?" H 7655 3804 50  0000 L CNN
+F 0 "Q1" H 7655 3804 50  0000 L CNN
 F 1 "MGSF1N02L" H 7655 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 3775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pdf/datasheet/mgsf1n02lt1-d.pdf" H 7450 3850 50  0001 L CNN
@@ -1252,10 +1252,10 @@ F 6 "ON SEMICONDUCTOR" H 6600 3100 98  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFT_semiconductors:MGSF1N02L Q?
+L TFT_semiconductors:MGSF1N02L Q2
 U 1 1 608A1442
 P 10400 3850
-F 0 "Q?" H 10605 3804 50  0000 L CNN
+F 0 "Q2" H 10605 3804 50  0000 L CNN
 F 1 "MGSF1N02L" H 10605 3895 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10600 3775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pdf/datasheet/mgsf1n02lt1-d.pdf" H 10400 3850 50  0001 L CNN
