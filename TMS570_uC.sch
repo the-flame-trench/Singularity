@@ -2200,10 +2200,10 @@ F 4 "TI" H 7150 1450 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFT_capacitors:100n-10V-0402-5%-CER C?
+L TFT_capacitors:100n-10V-0402-5%-CER C42
 U 1 1 60754D47
 P 4000 7800
-F 0 "C?" H 4025 7900 50  0000 L CNN
+F 0 "C42" H 4025 7900 50  0000 L CNN
 F 1 "100n-10V-0402-5%-CER" H 4025 7700 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4038 7650 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0402C104J8RACAUTO.pdf" H 4000 7800 50  0001 C CNN

@@ -1058,34 +1058,6 @@ Text Label 8400 3450 2    50   ~ 0
 GATE_2
 Wire Wire Line
 	8450 3450 8400 3450
-$Comp
-L TFT_semiconductors:FDY300NZ Q2
-U 1 1 60B02012
-P 10400 3850
-F 0 "Q2" H 10605 3804 50  0000 L CNN
-F 1 "FDY300NZ" H 10605 3895 50  0000 L CNN
-F 2 "" H 10600 3775 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10400 3850 50  0001 L CNN
-F 4 "Power MOSFET, N Channel, 20 V, 600 mA, 0.24 ohm, SC-89, Surface Mount" H 9300 3250 98  0001 C CNN "Description"
-F 5 "FDY300NZ" H 9850 2950 98  0001 C CNN "PartNumber"
-F 6 "ON SEMICONDUCTOR" H 9550 3100 98  0001 C CNN "Manufacturer"
-	1    10400 3850
-	1    0    0    1   
-$EndComp
-$Comp
-L TFT_semiconductors:FDY300NZ Q1
-U 1 1 60B03D7D
-P 7450 3850
-F 0 "Q1" H 7655 3804 50  0000 L CNN
-F 1 "FDY300NZ" H 7655 3895 50  0000 L CNN
-F 2 "" H 7650 3775 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 7450 3850 50  0001 L CNN
-F 4 "Power MOSFET, N Channel, 20 V, 600 mA, 0.24 ohm, SC-89, Surface Mount" H 6350 3250 98  0001 C CNN "Description"
-F 5 "FDY300NZ" H 6900 2950 98  0001 C CNN "PartNumber"
-F 6 "ON SEMICONDUCTOR" H 6600 3100 98  0001 C CNN "Manufacturer"
-	1    7450 3850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7950 3150 7350 3150
 Wire Wire Line
@@ -1265,4 +1237,32 @@ Wire Wire Line
 Connection ~ 9750 3700
 Wire Wire Line
 	9750 3700 9750 3600
+$Comp
+L TFT_semiconductors:MGSF1N02L Q?
+U 1 1 6089E609
+P 7450 3850
+F 0 "Q?" H 7655 3804 50  0000 L CNN
+F 1 "MGSF1N02L" H 7655 3895 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 3775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/mgsf1n02lt1-d.pdf" H 7450 3850 50  0001 L CNN
+F 4 "MOSFET NFET SOT23 20V 750mA 90mOhm " H 6350 3250 98  0001 C CNN "Description"
+F 5 "MGSF1N02LT1G" H 6900 2950 98  0001 C CNN "PartNumber"
+F 6 "ON SEMICONDUCTOR" H 6600 3100 98  0001 C CNN "Manufacturer"
+	1    7450 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L TFT_semiconductors:MGSF1N02L Q?
+U 1 1 608A1442
+P 10400 3850
+F 0 "Q?" H 10605 3804 50  0000 L CNN
+F 1 "MGSF1N02L" H 10605 3895 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10600 3775 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/mgsf1n02lt1-d.pdf" H 10400 3850 50  0001 L CNN
+F 4 "MOSFET NFET SOT23 20V 750mA 90mOhm " H 9300 3250 98  0001 C CNN "Description"
+F 5 "MGSF1N02LT1G" H 9850 2950 98  0001 C CNN "PartNumber"
+F 6 "ON SEMICONDUCTOR" H 9550 3100 98  0001 C CNN "Manufacturer"
+	1    10400 3850
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
