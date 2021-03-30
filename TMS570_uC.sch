@@ -2171,12 +2171,6 @@ Wire Wire Line
 Connection ~ 15450 1650
 Wire Wire Line
 	15450 1650 15500 1650
-Wire Bus Line
-	10600 3100 10600 3400
-Wire Bus Line
-	10650 1600 10650 3050
-Wire Bus Line
-	10650 3400 10650 5150
 Wire Wire Line
 	6100 4700 5550 4700
 Wire Wire Line
@@ -2205,4 +2199,37 @@ F 4 "TI" H 7150 1450 50  0001 C CNN "Manufacturer"
 	2    7150 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L TFT_capacitors:100n-10V-0402-5%-CER C?
+U 1 1 60754D47
+P 4000 7800
+F 0 "C?" H 4025 7900 50  0000 L CNN
+F 1 "100n-10V-0402-5%-CER" H 4025 7700 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4038 7650 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0402C104J8RACAUTO.pdf" H 4000 7800 50  0001 C CNN
+F 4 "100n" H 4100 7700 50  0000 C CNN "NumVal"
+F 5 "C0402C104J8RACAUTO" H 4000 7800 50  0001 C CNN "PartNumber"
+F 6 "SMD Multilayer Ceramic Capacitor, 0.1 µF, 10 V, 0402 [1005 Metric], ± 5%, X7R, C Series KEMET" H 4000 7800 50  0001 C CNN "Description"
+F 7 "5%" H 4000 7800 50  0000 C CNN "Tolerance"
+F 8 "10V" H 4000 7800 50  0001 C CNN "Vmax"
+F 9 "Kemet" H 4000 7800 50  0001 C CNN "Manufacturer"
+F 10 "Farnell:      2904530RL " H 4000 7800 50  0001 C CNN "OrderNumber"
+	1    4000 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 8000 4000 8000
+Wire Wire Line
+	4000 8000 4000 7950
+Wire Wire Line
+	4200 7600 4000 7600
+Wire Wire Line
+	4000 7600 4000 7650
+Wire Bus Line
+	10600 3100 10600 3400
+Wire Bus Line
+	10650 1600 10650 3050
+Wire Bus Line
+	10650 3400 10650 5150
+Connection ~ 4200 7600
 $EndSCHEMATC
