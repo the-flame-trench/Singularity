@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name OBC-1-rescue)(type Legacy)(uri ${KIPRJMOD}/OBC-1-rescue.lib)(options "")(descr ""))
 )

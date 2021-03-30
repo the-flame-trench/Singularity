@@ -352,42 +352,6 @@ F 11 "Mouser: 81-DFE252012PDR47MP2" H 5250 1650 98  0001 C CNN "OrderNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TFT_resistors:68K-50V-0402-1% R3
-U 1 1 609C2960
-P 5150 2750
-F 0 "R3" H 5220 2841 50  0000 L CNN
-F 1 "68K-50V-0402-1%" V 5250 2750 50  0001 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 2750 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5250 2550 50  0001 C CNN
-F 4 "68K" H 5220 2750 50  0000 L CNN "NumVal"
-F 5 "CRCW040268K0FKED" V 4950 2700 50  0001 C CNN "PartNumber"
-F 6 "SMD Chip Resistor, 68 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 2750 50  0001 C CNN "Description"
-F 7 "1%" H 5220 2659 50  0000 L CNN "Tolerance"
-F 8 "50V" V 5250 3050 50  0001 C CNN "Vmax"
-F 9 "Vishay" V 5250 2500 50  0001 C CNN "Manufacturer"
-F 10 "Farnell:     2140918 " H 5150 2750 50  0001 C CNN "OrderNumber"
-	1    5150 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_resistors:68K-50V-0402-1% R4
-U 1 1 609C360F
-P 5150 3150
-F 0 "R4" H 5220 3241 50  0000 L CNN
-F 1 "68K-50V-0402-1%" V 5250 3150 50  0001 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 3150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5250 2950 50  0001 C CNN
-F 4 "68K" H 5220 3150 50  0000 L CNN "NumVal"
-F 5 "CRCW040268K0FKED" V 4950 3100 50  0001 C CNN "PartNumber"
-F 6 "SMD Chip Resistor, 68 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 3150 50  0001 C CNN "Description"
-F 7 "1%" H 5220 3059 50  0000 L CNN "Tolerance"
-F 8 "50V" V 5250 3450 50  0001 C CNN "Vmax"
-F 9 "Vishay" V 5250 2900 50  0001 C CNN "Manufacturer"
-F 10 "Farnell:     2140918 " H 5150 3150 50  0001 C CNN "OrderNumber"
-	1    5150 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L TFT_capacitors:10p-50V-0402-0.5p-CER C8
 U 1 1 609C4CE1
 P 5550 2750
@@ -633,42 +597,6 @@ F 11 "Mouser: 81-DFE252012PDR47MP2" H 5250 3500 98  0001 C CNN "OrderNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TFT_resistors:68K-50V-0402-1% R5
-U 1 1 609FBD29
-P 5150 4600
-F 0 "R5" H 5220 4691 50  0000 L CNN
-F 1 "68K-50V-0402-1%" V 5250 4600 50  0001 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 4600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5250 4400 50  0001 C CNN
-F 4 "68K" H 5220 4600 50  0000 L CNN "NumVal"
-F 5 "CRCW040268K0FKED" V 4950 4550 50  0001 C CNN "PartNumber"
-F 6 "SMD Chip Resistor, 68 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 4600 50  0001 C CNN "Description"
-F 7 "1%" H 5220 4509 50  0000 L CNN "Tolerance"
-F 8 "50V" V 5250 4900 50  0001 C CNN "Vmax"
-F 9 "Vishay" V 5250 4350 50  0001 C CNN "Manufacturer"
-F 10 "Farnell:     2140918 " H 5150 4600 50  0001 C CNN "OrderNumber"
-	1    5150 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_resistors:68K-50V-0402-1% R6
-U 1 1 609FBD36
-P 5150 5000
-F 0 "R6" H 5220 5091 50  0000 L CNN
-F 1 "68K-50V-0402-1%" V 5250 5000 50  0001 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 5000 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5250 4800 50  0001 C CNN
-F 4 "68K" H 5220 5000 50  0000 L CNN "NumVal"
-F 5 "CRCW040268K0FKED" V 4950 4950 50  0001 C CNN "PartNumber"
-F 6 "SMD Chip Resistor, 68 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 5000 50  0001 C CNN "Description"
-F 7 "1%" H 5220 4909 50  0000 L CNN "Tolerance"
-F 8 "50V" V 5250 5300 50  0001 C CNN "Vmax"
-F 9 "Vishay" V 5250 4750 50  0001 C CNN "Manufacturer"
-F 10 "Farnell:     2140918 " H 5150 5000 50  0001 C CNN "OrderNumber"
-	1    5150 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L TFT_capacitors:10p-50V-0402-0.5p-CER C9
 U 1 1 609FBD43
 P 5550 4600
@@ -785,28 +713,6 @@ Connection ~ 3200 4350
 Wire Wire Line
 	3200 2450 3200 2500
 Connection ~ 3200 2500
-$Comp
-L TFT_power:OBC_1V2_P #PWR023
-U 1 1 60A04680
-P 6350 2450
-F 0 "#PWR023" H 6350 2300 50  0001 C CNN
-F 1 "OBC_1V2_P" H 6365 2623 50  0000 C CNN
-F 2 "" H 6350 2450 50  0001 C CNN
-F 3 "" H 6350 2450 50  0001 C CNN
-	1    6350 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_power:OBC_1V2_R #PWR024
-U 1 1 60A05A02
-P 6350 4300
-F 0 "#PWR024" H 6350 4150 50  0001 C CNN
-F 1 "OBC_1V2_R" H 6365 4473 50  0000 C CNN
-F 2 "" H 6350 4300 50  0001 C CNN
-F 3 "" H 6350 4300 50  0001 C CNN
-	1    6350 4300
-	1    0    0    -1  
-$EndComp
 Text Notes 3450 2000 0    98   ~ 0
 OBC 1V2 Core Primary Supply
 Text Notes 3450 3850 0    98   ~ 0
@@ -930,30 +836,8 @@ Wire Wire Line
 Wire Wire Line
 	8400 3800 8400 3900
 Connection ~ 8400 3900
-$Comp
-L TFT_power:OBC_1V2_P #PWR029
-U 1 1 60A9B6E9
-P 9850 3100
-F 0 "#PWR029" H 9850 2950 50  0001 C CNN
-F 1 "OBC_1V2_P" H 9865 3273 50  0000 C CNN
-F 2 "" H 9850 3100 50  0001 C CNN
-F 3 "" H 9850 3100 50  0001 C CNN
-	1    9850 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 3100 9850 3150
-$Comp
-L TFT_power:OBC_1V2_R #PWR026
-U 1 1 60A9F3C9
-P 8050 3100
-F 0 "#PWR026" H 8050 2950 50  0001 C CNN
-F 1 "OBC_1V2_R" H 8065 3273 50  0000 C CNN
-F 2 "" H 8050 3100 50  0001 C CNN
-F 3 "" H 8050 3100 50  0001 C CNN
-	1    8050 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8050 3150 8050 3100
 $Comp
@@ -1014,28 +898,6 @@ Wire Wire Line
 	9950 3550 9800 3550
 Wire Wire Line
 	9800 3550 9800 3300
-$Comp
-L TFT_power:OBC_1V2 #PWR030
-U 1 1 60AC03CB
-P 10300 3550
-F 0 "#PWR030" H 10300 3400 50  0001 C CNN
-F 1 "OBC_1V2" H 10315 3723 50  0000 C CNN
-F 2 "" H 10300 3550 50  0001 C CNN
-F 3 "" H 10300 3550 50  0001 C CNN
-	1    10300 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_power:OBC_1V2 #PWR025
-U 1 1 60AC1B7C
-P 7600 3550
-F 0 "#PWR025" H 7600 3400 50  0001 C CNN
-F 1 "OBC_1V2" H 7550 3700 50  0000 C CNN
-F 2 "" H 7600 3550 50  0001 C CNN
-F 3 "" H 7600 3550 50  0001 C CNN
-	1    7600 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 3550 7600 3600
 Wire Wire Line
@@ -1264,5 +1126,143 @@ F 5 "MGSF1N02LT1G" H 9850 2950 98  0001 C CNN "PartNumber"
 F 6 "ON SEMICONDUCTOR" H 9550 3100 98  0001 C CNN "Manufacturer"
 	1    10400 3850
 	1    0    0    1   
+$EndComp
+$Comp
+L TFT_power:OBC_1V25 #PWR?
+U 1 1 6068C5F7
+P 7600 3550
+F 0 "#PWR?" H 7600 3400 50  0001 C CNN
+F 1 "OBC_1V25" H 7615 3723 50  0000 C CNN
+F 2 "" H 7600 3550 50  0001 C CNN
+F 3 "" H 7600 3550 50  0001 C CNN
+	1    7600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_power:OBC_1V25 #PWR?
+U 1 1 6068D344
+P 10300 3550
+F 0 "#PWR?" H 10300 3400 50  0001 C CNN
+F 1 "OBC_1V25" H 10315 3723 50  0000 C CNN
+F 2 "" H 10300 3550 50  0001 C CNN
+F 3 "" H 10300 3550 50  0001 C CNN
+	1    10300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_power:OBC_1V25_P #PWR?
+U 1 1 6068E9AB
+P 6350 2450
+F 0 "#PWR?" H 6350 2300 50  0001 C CNN
+F 1 "OBC_1V25_P" H 6365 2623 50  0000 C CNN
+F 2 "" H 6350 2450 50  0001 C CNN
+F 3 "" H 6350 2450 50  0001 C CNN
+	1    6350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_power:OBC_1V25_R #PWR?
+U 1 1 6068F937
+P 6350 4300
+F 0 "#PWR?" H 6350 4150 50  0001 C CNN
+F 1 "OBC_1V25_R" H 6365 4473 50  0000 C CNN
+F 2 "" H 6350 4300 50  0001 C CNN
+F 3 "" H 6350 4300 50  0001 C CNN
+	1    6350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_power:OBC_1V25_P #PWR?
+U 1 1 60690BBC
+P 9850 3100
+F 0 "#PWR?" H 9850 2950 50  0001 C CNN
+F 1 "OBC_1V25_P" H 9865 3273 50  0000 C CNN
+F 2 "" H 9850 3100 50  0001 C CNN
+F 3 "" H 9850 3100 50  0001 C CNN
+	1    9850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_power:OBC_1V25_R #PWR?
+U 1 1 6069162E
+P 8050 3100
+F 0 "#PWR?" H 8050 2950 50  0001 C CNN
+F 1 "OBC_1V25_R" H 8065 3273 50  0000 C CNN
+F 2 "" H 8050 3100 50  0001 C CNN
+F 3 "" H 8050 3100 50  0001 C CNN
+	1    8050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_resistors:16K2-50V-0402-1% R?
+U 1 1 60696D45
+P 5150 2750
+F 0 "R?" H 5220 2841 50  0000 L CNN
+F 1 "16K2-50V-0402-1%" V 5250 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 2750 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 5250 2550 50  0001 C CNN
+F 4 "16K2" H 5220 2750 50  0000 L CNN "NumVal"
+F 5 "CRCW040216K2FKED" V 4950 2700 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 16.2 Kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 2750 50  0001 C CNN "Description"
+F 7 "1%" H 5220 2659 50  0000 L CNN "Tolerance"
+F 8 "50V" V 5250 3050 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 5250 2500 50  0001 C CNN "Manufacturer"
+F 10 "Mouser: 71-CRCW0402-16.2K-E3" H 5150 2750 50  0001 C CNN "OrderNumber"
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_resistors:16K2-50V-0402-1% R?
+U 1 1 60698B20
+P 5150 4600
+F 0 "R?" H 5220 4691 50  0000 L CNN
+F 1 "16K2-50V-0402-1%" V 5250 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 4600 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 5250 4400 50  0001 C CNN
+F 4 "16K2" H 5220 4600 50  0000 L CNN "NumVal"
+F 5 "CRCW040216K2FKED" V 4950 4550 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 16.2 Kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 4600 50  0001 C CNN "Description"
+F 7 "1%" H 5220 4509 50  0000 L CNN "Tolerance"
+F 8 "50V" V 5250 4900 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 5250 4350 50  0001 C CNN "Manufacturer"
+F 10 "Mouser: 71-CRCW0402-16.2K-E3" H 5150 4600 50  0001 C CNN "OrderNumber"
+	1    5150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_resistors:15K-50V-0402-1% R?
+U 1 1 6069A3F0
+P 5150 3150
+F 0 "R?" H 5220 3241 50  0000 L CNN
+F 1 "15K-50V-0402-1%" V 5250 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 3150 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 5250 2950 50  0001 C CNN
+F 4 "15K" H 5220 3150 50  0000 L CNN "NumVal"
+F 5 "CRCW040215K0FKED" V 4950 3100 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 15 Kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 3150 50  0001 C CNN "Description"
+F 7 "1%" H 5220 3059 50  0000 L CNN "Tolerance"
+F 8 "50V" V 5250 3450 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 5250 2900 50  0001 C CNN "Manufacturer"
+F 10 "Mouser: 71-CRCW0402-15K-E3" H 5150 3150 50  0001 C CNN "OrderNumber"
+	1    5150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_resistors:15K-50V-0402-1% R?
+U 1 1 6069C06D
+P 5150 5000
+F 0 "R?" H 5220 5091 50  0000 L CNN
+F 1 "15K-50V-0402-1%" V 5250 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 5000 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 5250 4800 50  0001 C CNN
+F 4 "15K" H 5220 5000 50  0000 L CNN "NumVal"
+F 5 "CRCW040215K0FKED" V 4950 4950 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 15 Kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 5000 50  0001 C CNN "Description"
+F 7 "1%" H 5220 4909 50  0000 L CNN "Tolerance"
+F 8 "50V" V 5250 5300 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 5250 4750 50  0001 C CNN "Manufacturer"
+F 10 "Mouser: 71-CRCW0402-15K-E3" H 5150 5000 50  0001 C CNN "OrderNumber"
+	1    5150 5000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
