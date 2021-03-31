@@ -109,7 +109,7 @@ U 1 1 6098097C
 P 4650 3050
 F 0 "U1" H 4200 3973 98  0000 C CNN
 F 1 "TPS62850x-Q1" H 4200 3810 98  0000 C CNN
-F 2 "TFT_TestPoints:TestPoint_Pad_D1.0mm" H 4650 3050 98  0001 C CNN
+F 2 "" H 4650 3050 98  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps628502-q1.pdf" H 4650 3050 98  0001 C CNN
 F 4 "TI" H 3450 2350 98  0001 C CNN "Manufacturer"
 F 5 "Switching Voltage Regulators 2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package " H 3350 2650 98  0001 C CNN "Description"
@@ -446,7 +446,7 @@ U 1 1 609FBCC9
 P 4650 4900
 F 0 "U2" H 4200 5823 98  0000 C CNN
 F 1 "TPS62850x-Q1" H 4200 5660 98  0000 C CNN
-F 2 "TFT_TestPoints:TestPoint_Pad_D1.0mm" H 4650 4900 98  0001 C CNN
+F 2 "" H 4650 4900 98  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps628502-q1.pdf" H 4650 4900 98  0001 C CNN
 F 4 "TI" H 3450 4200 98  0001 C CNN "Manufacturer"
 F 5 "Switching Voltage Regulators 2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package " H 3350 4500 98  0001 C CNN "Description"
@@ -1056,7 +1056,7 @@ U 1 1 6068A7D7
 P 6450 2500
 F 0 "TP17" H 6322 2505 50  0000 R CNN
 F 1 "TEST-POINT" H 6450 2850 50  0001 C CNN
-F 2 "TFT_TestPoints:TestPoint_Pad_D1.0mm" H 6450 2500 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 6450 2500 50  0001 C CNN
 F 3 "" H 6450 2500 50  0001 C CNN
 	1    6450 2500
 	-1   0    0    1   
@@ -1067,7 +1067,7 @@ U 1 1 6068C1FC
 P 6450 4350
 F 0 "TP18" H 6322 4355 50  0000 R CNN
 F 1 "TEST-POINT" H 6450 4700 50  0001 C CNN
-F 2 "TFT_TestPoints:TestPoint_Pad_D1.0mm" H 6450 4350 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 6450 4350 50  0001 C CNN
 F 3 "" H 6450 4350 50  0001 C CNN
 	1    6450 4350
 	-1   0    0    1   
@@ -1078,7 +1078,7 @@ U 1 1 6068CCAE
 P 2200 2900
 F 0 "TP16" H 2072 2905 50  0000 R CNN
 F 1 "TEST-POINT" H 2200 3250 50  0001 C CNN
-F 2 "TFT_TestPoints:TestPoint_Pad_D1.0mm" H 2200 2900 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 2200 2900 50  0001 C CNN
 F 3 "" H 2200 2900 50  0001 C CNN
 	1    2200 2900
 	-1   0    0    1   
@@ -1089,7 +1089,7 @@ U 1 1 6068D62A
 P 10050 3700
 F 0 "TP19" H 9922 3705 50  0000 R CNN
 F 1 "TEST-POINT" H 10050 4050 50  0001 C CNN
-F 2 "TFT_TestPoints:TestPoint_Pad_D1.0mm" H 10050 3700 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 10050 3700 50  0001 C CNN
 F 3 "" H 10050 3700 50  0001 C CNN
 	1    10050 3700
 	-1   0    0    1   

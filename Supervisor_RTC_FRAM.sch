@@ -357,7 +357,7 @@ U 1 1 62D70BA3
 P 3850 3000
 F 0 "J3" H 3742 2675 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 3742 2766 50  0000 C CNN
-F 2 "TFT_TestPoints:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 3850 3000 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_2Pads_Pitch2.54mm_Drill0.8mm" H 3850 3000 50  0001 C CNN
 F 3 "~" H 3850 3000 50  0001 C CNN
 	1    3850 3000
 	-1   0    0    1   
