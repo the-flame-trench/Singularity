@@ -703,9 +703,9 @@ Wire Wire Line
 Wire Wire Line
 	900  5750 1050 5750
 Text HLabel 7050 3050 0    50   Input ~ 0
-OBC_1V2_P_PG
+OBC_1V25_P_PG
 Text HLabel 7050 3150 0    50   Input ~ 0
-OBC_1V2_R_PG
+OBC_1V25_R_PG
 Wire Wire Line
 	7150 3050 7050 3050
 Wire Wire Line
