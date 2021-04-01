@@ -249,9 +249,9 @@ Wire Wire Line
 	1950 2600 1650 2600
 Wire Wire Line
 	1950 2700 1650 2700
-Text HLabel 1950 3100 2    50   BiDi ~ 0
-CAN_H_R
 Text HLabel 1950 3000 2    50   BiDi ~ 0
+CAN_H_R
+Text HLabel 1950 3100 2    50   BiDi ~ 0
 CAN_L_R
 Wire Wire Line
 	1950 3000 1650 3000
@@ -487,9 +487,9 @@ Wire Wire Line
 Connection ~ 5550 2900
 Wire Wire Line
 	5550 2900 5550 2800
-Text HLabel 4550 3100 2    50   BiDi ~ 0
-CAN_H_R
 Text HLabel 4550 3000 2    50   BiDi ~ 0
+CAN_H_R
+Text HLabel 4550 3100 2    50   BiDi ~ 0
 CAN_L_R
 Wire Wire Line
 	4550 3000 4250 3000
