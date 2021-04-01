@@ -1220,24 +1220,6 @@ F 10 "Mouser: 71-CRCW0402-16.2K-E3" H 5150 2750 50  0001 C CNN "OrderNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TFT_resistors:16K2-50V-0402-1% R5
-U 1 1 60698B20
-P 5150 4600
-F 0 "R5" H 5220 4691 50  0000 L CNN
-F 1 "16K2-50V-0402-1%" V 5250 4600 50  0001 C CNN
-F 2 "TFT_R_passive_SMD:0402_RES" V 5080 4600 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 5250 4400 50  0001 C CNN
-F 4 "16K2" H 5220 4600 50  0000 L CNN "NumVal"
-F 5 "CRCW040216K2FKED" V 4950 4550 50  0001 C CNN "PartNumber"
-F 6 "SMD Chip Resistor, 16.2 Kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 4600 50  0001 C CNN "Description"
-F 7 "1%" H 5220 4509 50  0000 L CNN "Tolerance"
-F 8 "50V" V 5250 4900 50  0001 C CNN "Vmax"
-F 9 "Vishay" V 5250 4350 50  0001 C CNN "Manufacturer"
-F 10 "Mouser: 71-CRCW0402-16.2K-E3" H 5150 4600 50  0001 C CNN "OrderNumber"
-	1    5150 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L TFT_resistors:15K-50V-0402-1% R4
 U 1 1 6069A3F0
 P 5150 3150
@@ -1271,6 +1253,24 @@ F 8 "50V" V 5250 5300 50  0001 C CNN "Vmax"
 F 9 "Vishay" V 5250 4750 50  0001 C CNN "Manufacturer"
 F 10 "Mouser: 71-CRCW0402-15K-E3" H 5150 5000 50  0001 C CNN "OrderNumber"
 	1    5150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TFT_resistors:16K2-50V-0402-1% R5
+U 1 1 60698B20
+P 5150 4600
+F 0 "R5" H 5220 4691 50  0000 L CNN
+F 1 "16K2-50V-0402-1%" V 5250 4600 50  0001 C CNN
+F 2 "TFT_R_passive_SMD:0402_RES" V 5080 4600 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/427/dcrcwe3-1762152.pdf" H 5250 4400 50  0001 C CNN
+F 4 "16K2" H 5220 4600 50  0000 L CNN "NumVal"
+F 5 "CRCW040216K2FKED" V 4950 4550 50  0001 C CNN "PartNumber"
+F 6 "SMD Chip Resistor, 16.2 Kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" H 5150 4600 50  0001 C CNN "Description"
+F 7 "1%" H 5220 4509 50  0000 L CNN "Tolerance"
+F 8 "50V" V 5250 4900 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 5250 4350 50  0001 C CNN "Manufacturer"
+F 10 "Mouser: 71-CRCW0402-16.2K-E3" H 5150 4600 50  0001 C CNN "OrderNumber"
+	1    5150 4600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
