@@ -109,7 +109,7 @@ U 1 1 6098097C
 P 4650 3050
 F 0 "U1" H 4200 3973 98  0000 C CNN
 F 1 "TPS62850x-Q1" H 4200 3810 98  0000 C CNN
-F 2 "" H 4650 3050 98  0001 C CNN
+F 2 "TFT_SOT:SOT-583" H 4650 3050 98  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps628502-q1.pdf" H 4650 3050 98  0001 C CNN
 F 4 "TI" H 3450 2350 98  0001 C CNN "Manufacturer"
 F 5 "Switching Voltage Regulators 2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package " H 3350 2650 98  0001 C CNN "Description"
@@ -446,7 +446,7 @@ U 1 1 609FBCC9
 P 4650 4900
 F 0 "U2" H 4200 5823 98  0000 C CNN
 F 1 "TPS62850x-Q1" H 4200 5660 98  0000 C CNN
-F 2 "" H 4650 4900 98  0001 C CNN
+F 2 "TFT_SOT:SOT-583" H 4650 4900 98  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps628502-q1.pdf" H 4650 4900 98  0001 C CNN
 F 4 "TI" H 3450 4200 98  0001 C CNN "Manufacturer"
 F 5 "Switching Voltage Regulators 2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package " H 3350 4500 98  0001 C CNN "Description"

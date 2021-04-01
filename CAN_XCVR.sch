@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 4 11
 Title "Singularity OBC - CAN Transceiver"
 Date "2021-03-24"
 Rev "PROTO_A"
@@ -20,7 +20,7 @@ P 6000 2900
 AR Path="/60882301/60882F50" Ref="U4"  Part="1" 
 AR Path="/608A1F6B/60882F50" Ref="U5"  Part="1" 
 AR Path="/608A2D6B/60882F50" Ref="U6"  Part="1" 
-F 0 "U5" H 6150 3150 50  0000 C CNN
+F 0 "U4" H 6150 3150 50  0000 C CNN
 F 1 "SN65HVD230M-EP" H 6450 3250 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6000 2400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn65hvd230m-ep.pdf" H 5900 3300 50  0001 C CNN
@@ -140,7 +140,7 @@ P 4300 2900
 AR Path="/60882301/609A6C94" Ref="C17"  Part="1" 
 AR Path="/608A1F6B/609A6C94" Ref="C18"  Part="1" 
 AR Path="/608A2D6B/609A6C94" Ref="C19"  Part="1" 
-F 0 "C18" H 4415 2991 50  0000 L CNN
+F 0 "C17" H 4415 2991 50  0000 L CNN
 F 1 "100n-10V-0402-5%-CER" H 4325 2800 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 2750 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/specsheet/C0402C104J8RACAUTO.pdf" H 4300 2900 50  0001 C CNN
@@ -161,7 +161,7 @@ P 5350 3100
 AR Path="/60882301/609A888C" Ref="R7"  Part="1" 
 AR Path="/608A1F6B/609A888C" Ref="R9"  Part="1" 
 AR Path="/608A2D6B/609A888C" Ref="R11"  Part="1" 
-F 0 "R9" V 5450 3200 50  0000 C CNN
+F 0 "R7" V 5450 3200 50  0000 C CNN
 F 1 "10K-50V-0402-1%" V 5450 3100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 3100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2714353.pdf" H 5450 2900 50  0001 C CNN
@@ -182,7 +182,7 @@ P 6650 2950
 AR Path="/60882301/609AB7CB" Ref="R8"  Part="1" 
 AR Path="/608A1F6B/609AB7CB" Ref="R10"  Part="1" 
 AR Path="/608A2D6B/609AB7CB" Ref="R12"  Part="1" 
-F 0 "R10" H 6720 3041 50  0000 L CNN
+F 0 "R8" H 6720 3041 50  0000 L CNN
 F 1 "120R-50V-0402-1%" V 6750 2950 50  0001 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6580 2950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2339608.pdf" H 6750 2750 50  0001 C CNN
