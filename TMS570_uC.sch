@@ -894,7 +894,7 @@ uC_OSC_IN
 Wire Wire Line
 	5600 1350 5500 1350
 Text HLabel 7050 4550 0    50   Input ~ 0
-GPD_TXD0
+GPS_TXD0
 Text HLabel 7050 4650 0    50   Output ~ 0
 GPS_RXD0
 Text HLabel 7050 2750 0    50   Input ~ 0
