@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 6 10
 Title "Singularity OBC - CAN Transceiver"
 Date "2021-03-24"
 Rev "PROTO_A"
