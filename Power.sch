@@ -949,9 +949,9 @@ Wire Wire Line
 Wire Wire Line
 	9750 3600 9450 3600
 Text HLabel 9900 4300 2    50   Output ~ 0
-OBC_1V2_P_PG
+OBC_1V25_P_PG
 Text HLabel 9900 4200 2    50   Output ~ 0
-OBC_1V2_R_PG
+OBC_1V25_R_PG
 Wire Wire Line
 	9450 3900 9600 3900
 Wire Wire Line
