@@ -17,7 +17,7 @@ The board is designed to be powered by a 3V3 external supply.  For maximum relia
 
 The board contains bulk decoupling for the main 3V3 rail, which is then distributed to various ICs.  The 3V3 rail is also fed through redundant TPS62850 switch mode power supplies, with outputs OR'd by an ideal diode controller and pair of MOSFETS, to provide a redundant 1V2 rail for the TMS570 core supply.
 
-A version of the computer with 32Mb SDRAM is under study, however at present, on an already dense 6 layer board, layout is infeasible.
+A version of the computer with 32MB SDRAM is under study, however at present, on an already dense 6 layer board, layout is infeasible.
 
 
 # Usage
