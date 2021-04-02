@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Bus Line
 	3000 2350 2800 2350
 Text Label 3000 2350 0    50   ~ 0
-DQ[0:15]
+DQ[0..15]
 Entry Wire Line
 	4750 2550 4850 2650
 Entry Wire Line
@@ -301,11 +301,11 @@ Entry Wire Line
 Wire Bus Line
 	4850 2550 5150 2550
 Text Label 4850 2550 0    50   ~ 0
-BA[0:1]
+BA[0..1]
 Wire Bus Line
 	4850 2850 5150 2850
 Text Label 4850 2850 0    50   ~ 0
-A[0:12]
+A[0..12]
 Text HLabel 3200 4250 0    50   Input ~ 0
 SDRAM_1_DQMH
 Text HLabel 3200 4350 0    50   Input ~ 0
@@ -321,11 +321,11 @@ SDRAM_1_nWE
 Text HLabel 4700 4550 2    50   Input ~ 0
 SDRAM_1_nCS
 Text HLabel 5150 2850 2    50   Input ~ 0
-A[0:12]
+A[0..12]
 Text HLabel 5150 2550 2    50   Input ~ 0
-BA[0:1]
+BA[0..1]
 Text HLabel 2800 2350 0    50   BiDi ~ 0
-DQ[0:15]
+DQ[0..15]
 Wire Wire Line
 	3200 4250 3300 4250
 Wire Wire Line

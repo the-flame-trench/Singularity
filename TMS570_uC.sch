@@ -1059,7 +1059,7 @@ FL_1_nRESET
 Wire Wire Line
 	7150 3750 7050 3750
 Text HLabel 10750 3400 2    50   BiDi ~ 0
-DQ[0:15]
+DQ[0..15]
 Wire Wire Line
 	10350 3550 10550 3550
 Wire Wire Line
@@ -1127,7 +1127,7 @@ Entry Wire Line
 Wire Bus Line
 	10650 3400 10750 3400
 Text Label 10650 3550 0    50   ~ 0
-DQ[0:15]
+DQ[0..15]
 Text Label 10350 3550 0    50   ~ 0
 DQ15
 Text Label 10350 3650 0    50   ~ 0
@@ -1199,11 +1199,11 @@ Entry Wire Line
 Entry Wire Line
 	10500 3200 10600 3300
 Text HLabel 10750 3100 2    50   Output ~ 0
-BA[0:1]
+BA[0..1]
 Wire Bus Line
 	10600 3100 10750 3100
 Text Label 10600 3200 0    50   ~ 0
-BA[0:1]
+BA[0..1]
 Wire Wire Line
 	10350 2950 10550 2950
 Wire Wire Line
@@ -1257,11 +1257,11 @@ Entry Wire Line
 Entry Wire Line
 	10550 1750 10650 1850
 Text HLabel 10750 1600 2    50   Output ~ 0
-A[0:12]
+A[0..12]
 Wire Bus Line
 	10650 1600 10750 1600
 Text Label 10650 1750 0    50   ~ 0
-A[0:12]
+A[0..12]
 Text HLabel 10450 5600 2    50   Output ~ 0
 SDRAM_1_nCS
 Text HLabel 7050 4800 0    50   Output ~ 0
