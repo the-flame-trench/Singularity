@@ -94,7 +94,7 @@ Wire Wire Line
 	1650 1800 1900 1800
 Connection ~ 1900 1800
 Wire Wire Line
-	1900 1800 1900 1500
+	1900 1800 1900 1700
 Wire Wire Line
 	1650 1900 1900 1900
 Connection ~ 1900 1900
@@ -169,26 +169,6 @@ Wire Wire Line
 Connection ~ 3000 2900
 Wire Wire Line
 	3000 2900 3000 3200
-$Comp
-L TFT_power:OBC_5V #PWR035
-U 1 1 607F6E86
-P 2050 1550
-F 0 "#PWR035" H 2050 1400 50  0001 C CNN
-F 1 "OBC_5V" H 2065 1723 50  0000 C CNN
-F 2 "" H 2050 1550 50  0001 C CNN
-F 3 "" H 2050 1550 50  0001 C CNN
-	1    2050 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 1600 1650 1600
-Connection ~ 2050 1600
-Wire Wire Line
-	2050 1600 2050 1550
-Wire Wire Line
-	1650 1700 2050 1700
-Wire Wire Line
-	2050 1600 2050 1700
 $Comp
 L TFT_power:PAYLOAD_3V3 #PWR037
 U 1 1 607FA6BE
@@ -543,4 +523,14 @@ Wire Wire Line
 Wire Wire Line
 	5700 3100 5700 3000
 Connection ~ 5700 3000
+Wire Wire Line
+	1650 1600 1900 1600
+Connection ~ 1900 1600
+Wire Wire Line
+	1900 1600 1900 1500
+Wire Wire Line
+	1650 1700 1900 1700
+Connection ~ 1900 1700
+Wire Wire Line
+	1900 1700 1900 1600
 $EndSCHEMATC
