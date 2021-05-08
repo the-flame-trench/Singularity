@@ -1,7 +1,7 @@
 # Singularity On-board Computer
 Singularity is a high-reliability focused on-board computer (OBC) for Pocketqube scale spacecraft.
 
-It has been designed with a high degree of redundancy and fault tolerance in mind, and is partly compliant to ECSS-Q-ST-70-12C where possible.
+It has been designed with a high degree of redundancy and fault tolerance in mind, and is compliant to ECSS-Q-ST-70-12C where possible.
 
 
 # Design
