@@ -19,7 +19,7 @@ U 1 1 60B0FEC5
 P 5450 3050
 F 0 "U9" H 5450 3316 50  0000 C CNN
 F 1 "TPS3813K33-EP" H 5450 3225 50  0000 C CNN
-F 2 "" H 5500 3450 50  0001 C CNN
+F 2 "TFT_SOT:SOT-236" H 5500 3450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps3813k33-ep.pdf?ts=1621793707844&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS3813K33-EP" H 5450 3050 50  0001 C CNN
 F 4 "TPS3813K33-EP" H 5450 3650 50  0001 C CNN "PartNumber"
 F 5 "Processor supervisory circuits with window-watchdog" H 5600 3350 50  0001 C CNN "Description"

@@ -19,7 +19,7 @@ U 1 1 60BB44AC
 P 5900 2950
 F 0 "U10" H 5875 3216 50  0000 C CNN
 F 1 "RV-3032-C7" H 5875 3125 50  0000 C CNN
-F 2 "" H 5950 3350 50  0001 C CNN
+F 2 "TFT_misc:RV-3032-C7" H 5950 3350 50  0001 C CNN
 F 3 "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3032-C7.pdf" H 5900 2950 50  0001 C CNN
 F 4 "RV-3032-C7" H 5900 3550 50  0001 C CNN "PartNumber"
 F 5 "Real time clock module with I2C bus" H 6050 3250 50  0001 C CNN "Description"
@@ -252,7 +252,7 @@ U 1 1 60D43118
 P 3950 3200
 F 0 "C25" V 3809 3330 50  0000 L CNN
 F 1 "100uAH-1V8-4.4x3mm_LIon_batt" H 3749 2899 50  0001 L BNN
-F 2 "" H 3950 3200 50  0001 L BNN
+F 2 "TFT_misc:1812_BATT" H 3950 3200 50  0001 L BNN
 F 3 "https://www.tdk-electronics.tdk.com/inf/75/ds/CeraCharge_BCT1812M101AG.pdf" H 3950 3200 50  0001 L BNN
 F 4 "100uAH" V 3900 3330 50  0000 L CNN "NumVal"
 F 5 "B73180A0101M199" H 4000 2700 50  0001 C CNN "PartNumber"
