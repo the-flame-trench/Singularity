@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 10
 Title "Singularity OBC - CAN Transceiver"
 Date "2021-05-24"
-Rev "PROTO_A"
+Rev "PROTO_A_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
