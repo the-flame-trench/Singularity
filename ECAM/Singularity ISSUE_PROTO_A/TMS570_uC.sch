@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 10 10
 Title "Singularity OBC - uC"
 Date "2021-05-24"
-Rev "PROTO_A"
+Rev "PROTO_A_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -2010,4 +2010,8 @@ F 4 "TI" H 7150 1450 50  0001 C CNN "Manufacturer"
 	2    7150 1450
 	1    0    0    -1  
 $EndComp
+Text HLabel 7050 3450 0    50   Output ~ 0
+ADS_nRST
+Wire Wire Line
+	7150 3450 7050 3450
 $EndSCHEMATC
