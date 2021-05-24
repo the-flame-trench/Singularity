@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title "Singularity OBC - uC"
 Date "2021-05-24"
-Rev "PROTO_A"
+Rev "PROTO_B_v01"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -1990,4 +1990,64 @@ F 4 "TI" H 7150 1450 50  0001 C CNN "Manufacturer"
 	2    7150 1450
 	1    0    0    -1  
 $EndComp
+Text HLabel 6100 3250 0    50   Input ~ 0
+RTC_CLKOUT
+$Comp
+L TFT_resistors:0R-50V-0402 R24
+U 1 1 60C056A5
+P 6300 3250
+F 0 "R24" V 6200 3200 50  0000 C CNN
+F 1 "0R-50V-0402" V 6400 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6230 3250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 6400 3050 50  0001 C CNN
+F 4 "0R" V 6400 3200 50  0000 C CNN "NumVal"
+F 5 "CRCW04020000ZSTD " V 6100 3200 50  0001 C CNN "PartNumber"
+F 6 "Zero Ohm Resistor, Jumper, 0402 [1005 Metric], Thick Film, 63 mW, 3 A, Surface Mount Device" H 6300 3250 50  0001 C CNN "Description"
+F 7 "-" V 6400 3400 50  0001 C CNN "Tolerance"
+F 8 "50V" V 6400 3550 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 6400 3000 50  0001 C CNN "Manufacturer"
+F 10 "Farnell:          1652737 " H 6300 3250 50  0001 C CNN "OrderNumber"
+	1    6300 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3250 6150 3250
+Wire Wire Line
+	6450 3250 7150 3250
+Text HLabel 1850 4050 0    50   Input ~ 0
+RTC_CLKOUT
+$Comp
+L TFT_resistors:0R-50V-0402 R23
+U 1 1 60C735F3
+P 2050 4050
+F 0 "R23" V 1950 4000 50  0000 C CNN
+F 1 "0R-50V-0402" V 2150 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1980 4050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 2150 3850 50  0001 C CNN
+F 4 "0R" V 2150 4000 50  0000 C CNN "NumVal"
+F 5 "CRCW04020000ZSTD " V 1850 4000 50  0001 C CNN "PartNumber"
+F 6 "Zero Ohm Resistor, Jumper, 0402 [1005 Metric], Thick Film, 63 mW, 3 A, Surface Mount Device" H 2050 4050 50  0001 C CNN "Description"
+F 7 "-" V 2150 4200 50  0001 C CNN "Tolerance"
+F 8 "50V" V 2150 4350 50  0001 C CNN "Vmax"
+F 9 "Vishay" V 2150 3800 50  0001 C CNN "Manufacturer"
+F 10 "Farnell:          1652737 " H 2050 4050 50  0001 C CNN "OrderNumber"
+	1    2050 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 4050 1900 4050
+Wire Wire Line
+	2200 4050 2300 4050
+Text Notes 1950 3900 0    50   ~ 0
+DNF
+Text Notes 650  4000 0    50   ~ 0
+Can select GPIO or EXTCLKIN2\nfor RTC CLKOUT
+Text HLabel 7050 3650 0    50   Input ~ 0
+RTC_nINT
+Wire Wire Line
+	7150 3650 7050 3650
+Text HLabel 7050 3450 0    50   Output ~ 0
+ADS_nRST
+Wire Wire Line
+	7050 3450 7150 3450
 $EndSCHEMATC

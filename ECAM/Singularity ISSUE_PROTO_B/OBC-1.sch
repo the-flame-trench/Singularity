@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "Singularity OBC - Top Level Architecture"
 Date "2021-05-24"
-Rev "PROTO_A"
+Rev "PROTO_B_v01"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -2241,7 +2241,7 @@ Wire Wire Line
 	7650 5250 7450 5250
 Connection ~ 7650 5250
 $Sheet
-S 1500 2250 800  450 
+S 1650 2300 650  350 
 U 60ADFCCC
 F0 "Supervisor" 50
 F1 "Supervisor.sch" 50
@@ -2292,6 +2292,8 @@ F37 "JTAG_TDO" O L 2650 6550 50
 F38 "JTAG_TEST" I L 2650 6650 50 
 F39 "JTAG_TMS" I L 2650 6750 50 
 F40 "SPVSR_PET" O L 2650 2400 50 
+F41 "RTC_CLKOUT" I R 4000 1300 50 
+F42 "RTC_nINT" I R 4000 1400 50 
 $EndSheet
 Wire Wire Line
 	2550 6750 2650 6750
@@ -2387,9 +2389,9 @@ $EndComp
 Wire Wire Line
 	4000 1700 7350 1700
 Wire Wire Line
-	4000 1600 7350 1600
+	4000 1600 4300 1600
 Wire Wire Line
-	4000 1500 7350 1500
+	4000 1500 4200 1500
 Wire Wire Line
 	4350 6000 4000 6000
 Wire Wire Line
@@ -2552,4 +2554,40 @@ Wire Wire Line
 	2300 1400 2650 1400
 Wire Wire Line
 	2300 1500 2650 1500
+$Sheet
+S 4450 850  650  550 
+U 60BB4065
+F0 "RTC" 50
+F1 "RTC_v2.sch" 50
+F2 "OBC_I2C_SDA" B L 4450 1200 50 
+F3 "OBC_I2C_SCL" I L 4450 1300 50 
+F4 "RTC_CLKOUT" O L 4450 950 50 
+F5 "RTC_nINT" O L 4450 1050 50 
+$EndSheet
+Wire Wire Line
+	4450 1300 4300 1300
+Wire Wire Line
+	4300 1300 4300 1600
+Connection ~ 4300 1600
+Wire Wire Line
+	4300 1600 7350 1600
+Wire Wire Line
+	4450 1200 4200 1200
+Wire Wire Line
+	4200 1200 4200 1500
+Connection ~ 4200 1500
+Wire Wire Line
+	4200 1500 7350 1500
+Wire Wire Line
+	4450 1050 4100 1050
+Wire Wire Line
+	4100 1050 4100 1400
+Wire Wire Line
+	4100 1400 4000 1400
+Wire Wire Line
+	4450 950  4050 950 
+Wire Wire Line
+	4050 950  4050 1300
+Wire Wire Line
+	4050 1300 4000 1300
 $EndSCHEMATC
