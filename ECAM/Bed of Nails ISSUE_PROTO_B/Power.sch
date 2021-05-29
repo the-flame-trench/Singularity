@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 9 4
 Title "Singularity OBC - Power Conditioning"
 Date "2021-05-24"
 Rev "PROTO_B_v01"
