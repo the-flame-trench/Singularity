@@ -7,7 +7,7 @@ It has been designed with a high degree of redundancy and fault tolerance in min
 # Design
 The computer is based on the TI TMS570 family of safety critical microcontrollers, utilising dual lockstep ARM Cortex R4F CPU cores with extensive error checking capabilies.  
 
-The rest of the board contains 8Mb external FRAM, 1Gb external bulk flash (both on their own single SPI bus), and a supervisor IC with RTC, watchdog and 256kb integrated FRAM (Issue A only).
+The rest of the board contains 8Mb external FRAM, 1Gb external bulk flash (both on their own single SPI bus), and a supervisor IC with RTC, watchdog and 256kb integrated FRAM (Issue_PROTO_A only).
 
 Additionally, the board breaks out 3 CAN buses, with 1 designated for platform services, 1 for payload use, and a shared redundant bus.
 
