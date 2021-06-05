@@ -1,4 +1,4 @@
-update=25/05/2021 00:33:12
+update=05/06/2021 22:47:51
 version=1
 last_client=kicad
 [general]
@@ -251,7 +251,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../../Releases/ISSUE_PROTO_B/
+PlotDirectoryName=../../Releases/ISSUE_PROTO_B_BedOfNails/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
