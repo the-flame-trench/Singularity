@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 11 11
 Title ""
 Date ""
-Rev "PROTO_B_v01"
+Rev "PROTO_B_v02"
 Comp ""
 Comment1 ""
 Comment2 ""

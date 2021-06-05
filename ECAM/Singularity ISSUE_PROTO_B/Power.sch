@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 10 11
 Title "Singularity OBC - Power Conditioning"
 Date "2021-05-24"
-Rev "PROTO_B_v01"
+Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -936,7 +936,7 @@ GATE_1
 Wire Wire Line
 	7350 4050 7350 4100
 Wire Wire Line
-	7350 4100 8100 4100
+	7350 4100 7550 4100
 Wire Wire Line
 	8100 4100 8100 3600
 Connection ~ 8100 3600
@@ -965,9 +965,9 @@ Wire Wire Line
 Wire Wire Line
 	9750 4100 10500 4100
 Wire Wire Line
-	9650 4200 9900 4200
+	9650 4200 9750 4200
 Wire Wire Line
-	9600 4300 9900 4300
+	9600 4300 9700 4300
 Wire Wire Line
 	9950 3150 10500 3150
 Connection ~ 9950 3150
@@ -1273,4 +1273,64 @@ F 10 "Mouser: 71-CRCW0402-16.2K-E3" H 5150 4600 50  0001 C CNN "OrderNumber"
 	1    5150 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L TFT_testpoints:TEST-POINT TP?
+U 1 1 60CDC996
+P 9950 4450
+AR Path="/60CDC996" Ref="TP?"  Part="1" 
+AR Path="/607BD428/60CDC996" Ref="TP37"  Part="1" 
+F 0 "TP37" H 9822 4455 50  0000 R CNN
+F 1 "TEST-POINT" H 9950 4800 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 9950 4450 50  0001 C CNN
+F 3 "" H 9950 4450 50  0001 C CNN
+	1    9950 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TFT_testpoints:TEST-POINT TP?
+U 1 1 60CDE54E
+P 9950 4600
+AR Path="/60CDE54E" Ref="TP?"  Part="1" 
+AR Path="/607BD428/60CDE54E" Ref="TP36"  Part="1" 
+F 0 "TP36" H 9822 4605 50  0000 R CNN
+F 1 "TEST-POINT" H 9950 4950 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 9950 4600 50  0001 C CNN
+F 3 "" H 9950 4600 50  0001 C CNN
+	1    9950 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 4450 9750 4450
+Wire Wire Line
+	9750 4450 9750 4200
+Connection ~ 9750 4200
+Wire Wire Line
+	9750 4200 9900 4200
+Wire Wire Line
+	9850 4600 9700 4600
+Wire Wire Line
+	9700 4600 9700 4300
+Connection ~ 9700 4300
+Wire Wire Line
+	9700 4300 9900 4300
+$Comp
+L TFT_testpoints:TEST-POINT TP?
+U 1 1 60CEAF41
+P 7700 4200
+AR Path="/60CEAF41" Ref="TP?"  Part="1" 
+AR Path="/607BD428/60CEAF41" Ref="TP35"  Part="1" 
+F 0 "TP35" H 7572 4205 50  0000 R CNN
+F 1 "TEST-POINT" H 7700 4550 50  0001 C CNN
+F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 7700 4200 50  0001 C CNN
+F 3 "" H 7700 4200 50  0001 C CNN
+	1    7700 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 4200 7550 4200
+Wire Wire Line
+	7550 4200 7550 4100
+Connection ~ 7550 4100
+Wire Wire Line
+	7550 4100 8100 4100
 $EndSCHEMATC

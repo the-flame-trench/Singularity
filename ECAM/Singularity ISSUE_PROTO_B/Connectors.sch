@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 11
 Title "Singularity OBC - Connectors"
 Date "2021-05-24"
-Rev "PROTO_B_v01"
+Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"

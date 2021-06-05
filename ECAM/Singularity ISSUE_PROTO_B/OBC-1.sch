@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 11
 Title "Singularity OBC - Top Level Architecture"
 Date "2021-05-24"
-Rev "PROTO_B_v01"
+Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -36,19 +36,11 @@ $EndSheet
 Wire Wire Line
 	6300 2550 6300 2200
 Wire Wire Line
-	6300 2200 7350 2200
-Wire Wire Line
 	6350 2650 6350 2300
-Wire Wire Line
-	6350 2300 7350 2300
 Wire Wire Line
 	6450 3200 6450 2500
 Wire Wire Line
-	6450 2500 7350 2500
-Wire Wire Line
 	6500 3300 6500 2600
-Wire Wire Line
-	6500 2600 7350 2600
 Wire Wire Line
 	6700 3800 6700 2800
 Wire Wire Line
@@ -2387,8 +2379,6 @@ F 3 "" H 2350 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 1700 7350 1700
-Wire Wire Line
 	4000 1600 4300 1600
 Wire Wire Line
 	4000 1500 4200 1500
@@ -2465,10 +2455,6 @@ Wire Wire Line
 	4000 4100 6850 4100
 Wire Wire Line
 	4000 4200 6900 4200
-Wire Wire Line
-	6050 1900 7350 1900
-Wire Wire Line
-	6050 2000 7350 2000
 Wire Wire Line
 	6050 3300 6500 3300
 Wire Wire Line
@@ -2590,4 +2576,18 @@ Wire Wire Line
 	4050 950  4050 1300
 Wire Wire Line
 	4050 1300 4000 1300
+Wire Wire Line
+	4000 1700 7350 1700
+Wire Wire Line
+	6050 1900 7350 1900
+Wire Wire Line
+	6050 2000 7350 2000
+Wire Wire Line
+	6300 2200 7350 2200
+Wire Wire Line
+	6350 2300 7350 2300
+Wire Wire Line
+	6450 2500 7350 2500
+Wire Wire Line
+	6500 2600 7350 2600
 $EndSCHEMATC
