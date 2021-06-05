@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 11
 Title "Singularity OBC - External bulk flash"
-Date "2021-05-24"
+Date "2021-06-05"
 Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"

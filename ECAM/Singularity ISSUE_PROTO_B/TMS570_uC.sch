@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 11
 Title "Singularity OBC - uC"
-Date "2021-05-24"
+Date "2021-06-05"
 Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
