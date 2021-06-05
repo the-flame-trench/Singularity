@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 4 10
 Title "Singularity OBC - CAN Transceiver"
-Date "2021-06-05"
-Rev "PROTO_B_v02"
+Date "2021-05-24"
+Rev "PROTO_B_v01"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"

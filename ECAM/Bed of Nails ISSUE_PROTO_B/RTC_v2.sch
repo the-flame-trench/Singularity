@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
-Title "Singularity OBC - RTC"
-Date "2021-06-05"
-Rev "PROTO_B_v02"
-Comp "The Flame Trench"
-Comment1 "Drawn by:  Ben Cartwright"
-Comment2 "Status:  PROTOTYPE"
-Comment3 "(c) The Flame Trench 2021"
-Comment4 "Licenced under CERN OHLv2-Strong"
+Sheet 11 10
+Title ""
+Date ""
+Rev "PROTO_B_v01"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
 $EndDescr
 $Comp
 L TFT_digitalmisc:RV-3032-C7 U10
