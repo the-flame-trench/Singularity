@@ -936,8 +936,6 @@ GATE_1
 Wire Wire Line
 	7350 4050 7350 4100
 Wire Wire Line
-	7350 4100 7550 4100
-Wire Wire Line
 	8100 4100 8100 3600
 Connection ~ 8100 3600
 Wire Wire Line
@@ -1313,24 +1311,6 @@ Wire Wire Line
 Connection ~ 9700 4300
 Wire Wire Line
 	9700 4300 9900 4300
-$Comp
-L TFT_testpoints:TEST-POINT TP?
-U 1 1 60CEAF41
-P 7700 4200
-AR Path="/60CEAF41" Ref="TP?"  Part="1" 
-AR Path="/607BD428/60CEAF41" Ref="TP35"  Part="1" 
-F 0 "TP35" H 7572 4205 50  0000 R CNN
-F 1 "TEST-POINT" H 7700 4550 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 7700 4200 50  0001 C CNN
-F 3 "" H 7700 4200 50  0001 C CNN
-	1    7700 4200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	7600 4200 7550 4200
-Wire Wire Line
-	7550 4200 7550 4100
-Connection ~ 7550 4100
-Wire Wire Line
-	7550 4100 8100 4100
+	7350 4100 8100 4100
 $EndSCHEMATC
