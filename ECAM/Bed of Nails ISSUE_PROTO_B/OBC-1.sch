@@ -2387,8 +2387,8 @@ Wire Wire Line
 	3950 2750 3750 2750
 Wire Wire Line
 	3750 2850 3950 2850
-Text Notes 4400 2300 0    50   ~ 0
-Leave for future\n test points
+Text Notes 5000 1850 3    50   ~ 0
+Connector passthroughs\nLeave for future\ntest points
 Wire Wire Line
 	3900 1300 5100 1300
 Wire Wire Line
