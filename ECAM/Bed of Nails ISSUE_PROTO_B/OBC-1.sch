@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Singularity OBC - Top Level Architecture"
-Date "2021-05-24"
-Rev "PROTO_B_v01"
+Title "Singularity EGSE - Top Level Architecture"
+Date "2021-06-05"
+Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -43,6 +43,8 @@ F23 "OBC_1V25_R_PG" O R 6550 2200 50
 F24 "OBC_1V25_P" O R 6550 2300 50 
 F25 "OBC_1V25_R" O R 6550 2400 50 
 F26 "OBC_1V25" O R 6550 2500 50 
+F27 "OBC_3V3_CV" O R 6550 2600 50 
+F28 "SPVSR_nRST" O R 6550 2750 50 
 $EndSheet
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
@@ -2239,7 +2241,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 2150 1650 2150
 $Sheet
-S 2650 3200 1100 650 
+S 2650 3200 1100 750 
 U 607BD428
 F0 "Power" 50
 F1 "Power.sch" 50
@@ -2248,6 +2250,7 @@ F3 "OBC_1V25_R_PG" O R 3750 3400 50
 F4 "OBC_1V25_P" O R 3750 3550 50 
 F5 "OBC_1V25_R" O R 3750 3650 50 
 F6 "OBC_1V25" O R 3750 3750 50 
+F7 "OBC_3V3_CV" O R 3750 3850 50 
 $EndSheet
 $Comp
 L TFT_testpoints:TEST-POINT TP1
@@ -2356,17 +2359,6 @@ Wire Wire Line
 	3750 1600 4000 1600
 Wire Wire Line
 	4000 1600 4000 1400
-$Comp
-L TFT_testpoints:TEST-POINT TP16
-U 1 1 60CC4740
-P 4900 1500
-F 0 "TP16" H 4700 1500 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 1850 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 1500 50  0001 C CNN
-F 3 "" H 4900 1500 50  0001 C CNN
-	1    4900 1500
-	1    0    0    -1  
-$EndComp
 Text Label 3950 1850 0    50   ~ 0
 SPVSR_nRST
 Wire Wire Line
@@ -2395,85 +2387,7 @@ Wire Wire Line
 	3950 2750 3750 2750
 Wire Wire Line
 	3750 2850 3950 2850
-$Comp
-L TFT_testpoints:TEST-POINT TP19
-U 1 1 60CCBFF5
-P 4900 1700
-F 0 "TP19" H 4700 1700 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 2050 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 1700 50  0001 C CNN
-F 3 "" H 4900 1700 50  0001 C CNN
-	1    4900 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_testpoints:TEST-POINT TP30
-U 1 1 60CCC4BB
-P 4900 1800
-F 0 "TP30" H 4700 1800 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 2150 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 1800 50  0001 C CNN
-F 3 "" H 4900 1800 50  0001 C CNN
-	1    4900 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_testpoints:TEST-POINT TP31
-U 1 1 60CCF1A5
-P 4900 2000
-F 0 "TP31" H 4700 2000 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 2350 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 2000 50  0001 C CNN
-F 3 "" H 4900 2000 50  0001 C CNN
-	1    4900 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_testpoints:TEST-POINT TP32
-U 1 1 60CCF1AB
-P 4900 2100
-F 0 "TP32" H 4700 2100 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 2450 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 2100 50  0001 C CNN
-F 3 "" H 4900 2100 50  0001 C CNN
-	1    4900 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_testpoints:TEST-POINT TP33
-U 1 1 60CD0063
-P 4900 2300
-F 0 "TP33" H 4700 2300 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 2650 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 2300 50  0001 C CNN
-F 3 "" H 4900 2300 50  0001 C CNN
-	1    4900 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TFT_testpoints:TEST-POINT TP34
-U 1 1 60CD0069
-P 4900 2400
-F 0 "TP34" H 4700 2400 50  0000 C CNN
-F 1 "TEST-POINT" H 4900 2750 50  0001 C CNN
-F 2 "TFT_TestPoints:TP_RDPad_D1.0mm" H 4900 2400 50  0001 C CNN
-F 3 "" H 4900 2400 50  0001 C CNN
-	1    4900 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 1700 5100 1700
-Wire Wire Line
-	5100 1800 5000 1800
-Wire Wire Line
-	5000 2000 5100 2000
-Wire Wire Line
-	5000 2100 5100 2100
-Wire Wire Line
-	5000 2300 5100 2300
-Wire Wire Line
-	5000 2400 5100 2400
-Text Notes 4450 2900 0    50   ~ 0
+Text Notes 4400 2300 0    50   ~ 0
 Leave for future\n test points
 Wire Wire Line
 	3900 1300 5100 1300
@@ -2524,8 +2438,6 @@ OBC_1V25_R
 Text Label 3900 3750 0    50   ~ 0
 OBC_1V25
 Wire Wire Line
-	5000 1500 5100 1500
-Wire Wire Line
 	6550 2100 6700 2100
 Wire Wire Line
 	6550 2200 6700 2200
@@ -2545,4 +2457,20 @@ Text Label 6700 2400 0    50   ~ 0
 OBC_1V25_R
 Text Label 6700 2500 0    50   ~ 0
 OBC_1V25
+Wire Wire Line
+	3750 3850 3900 3850
+Text Label 3900 3850 0    50   ~ 0
+OBC_3V3_CV
+Wire Wire Line
+	6550 2600 6700 2600
+Text Label 6700 2600 0    50   ~ 0
+OBC_3V3_CV
+Wire Notes Line
+	5050 1450 5050 3050
+Text Label 6750 2750 0    50   ~ 0
+SPVSR_nRST
+Wire Wire Line
+	6750 2750 6550 2750
+Text Notes 7100 6500 0    50   ~ 0
+Notes:\nRev refers to most recent Singularity board this EGSE is compatible with
 $EndSCHEMATC

@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title "Singularity OBC - Connectors"
-Date "2021-05-24"
-Rev "PROTO_B_v01"
+Title "Singularity EGSE - Connectors"
+Date "2021-06-05"
+Rev "PROTO_B_v02"
 Comp "The Flame Trench"
 Comment1 "Drawn by:  Ben Cartwright"
 Comment2 "Status:  PROTOTYPE"
@@ -451,7 +451,7 @@ F 3 "" H 5700 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 3200 5700 2200
+	5700 3200 5700 3100
 Wire Wire Line
 	5700 1600 5550 1600
 Wire Wire Line
@@ -484,4 +484,22 @@ Wire Wire Line
 Connection ~ 5700 2200
 Wire Wire Line
 	5700 2200 5700 1900
+Text HLabel 5750 2800 2    50   Output ~ 0
+OBC_3V3_CV
+Wire Wire Line
+	5750 2800 5550 2800
+Text HLabel 5750 3000 2    50   Output ~ 0
+SPVSR_nRST
+Wire Wire Line
+	5750 3000 5550 3000
+Wire Wire Line
+	5700 2900 5550 2900
+Connection ~ 5700 2900
+Wire Wire Line
+	5700 2900 5700 2200
+Wire Wire Line
+	5700 3100 5550 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	5700 3100 5700 2900
 $EndSCHEMATC
