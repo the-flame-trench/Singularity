@@ -33,3 +33,6 @@ fp-info-cache
 
 #G Drive files
 desktop.ini
+
+#v5 KiCAD legacy files
+.sch
