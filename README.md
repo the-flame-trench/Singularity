@@ -27,7 +27,7 @@ Then, clone the Singularity repo, ensuring that your library tables are correctl
 
 
 # Contributing
-The schematic and PCB are being designed in KiCad v5.1, and will move with the latest stable version.
+The schematic and PCB are being designed in KiCad v6.0, and will move with the latest stable version.
 
 We are working to bring every symbol and footprint into the TFT KiCad source libraries, however currently there are still a few instances using the default KiCad component library.
 
@@ -35,4 +35,4 @@ We are working to bring every symbol and footprint into the TFT KiCad source lib
 # Licence
 Licenced under the [CERN OHLv2 - Strongly Reciprocal](LICENCE) or as referenced.
 
-(c) The Flame Trench 2021
+(c) The Flame Trench 2022
